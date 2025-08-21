@@ -723,9 +723,9 @@ strong {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  padding: 40px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 5px;
   transition: all ease 0.5s;
 }
 
@@ -1120,6 +1120,7 @@ strong {
   .projects-thumb {
     margin-top: 0;
     margin-bottom: 32px;
+    padding-bottom: 40px 40px 240px 40px;
   }
 
   .contact-info {
