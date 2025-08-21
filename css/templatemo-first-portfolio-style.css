@@ -12,7 +12,7 @@ https://templatemo.com/tm-578-first-portfolio
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #535da1;
+  --primary-color:                #000000;
   --secondary-color:              #14B789;
   --section-bg-color:             #f9f9f9;
   --dark-color:                   #000000;
@@ -355,7 +355,7 @@ strong {
 
 .navbar-brand,
 .navbar-brand:hover {
-  color: var(--white-color);
+  color: var(--dark-color);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -723,10 +723,13 @@ strong {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
-  margin-top: 4px;
-  margin-bottom: 4px;
-  padding: 5px;
+  margin-top: 24px; /* Adjust this for vertical spacing */
+  margin-bottom: 24px; /* Adjust this for vertical spacing */
+  padding: 40px 40px 240px 40px; /* This padding creates the space you see in the 'Projects' image */
   transition: all ease 0.5s;
+  /* Add new properties to set the size */
+  width: 536px;
+  height: 404.67px;
 }
 
 .projects-thumb:hover {
