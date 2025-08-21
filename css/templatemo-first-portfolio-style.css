@@ -1189,3 +1189,22 @@ strong {
   }
 }
 
+
+/* Reduce vertical size of internship cards */
+#section_4 .services-thumb {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    min-height: 350px;    /* You can adjust this value as needed */
+    max-height: 400px;    /* Optional: prevents cards from getting too tall */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#section_4 .card-body {
+    padding: 1rem 1.25rem;
+}
+
+#section_4 .services-thumb-up {
+    margin-bottom: 24px;
+}
