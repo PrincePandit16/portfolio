@@ -562,8 +562,15 @@ strong {
   display: inline-block;
 }
 
+.right-aligned span {
+  padding-right: 15px;
+}
+
 .profile-body p {
   margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .about-image {
@@ -1130,6 +1137,10 @@ strong {
     border-right: 0;
     border-bottom: 1px solid var(--border-color);
     border-radius: var(--border-radius-small) var(--border-radius-small) 0 0;
+  }
+
+  section[id^="section_"] {
+    scroll-margin-top: 90px; /* Adjust this value as needed to clear the fixed navbar */
   }
 }
 
