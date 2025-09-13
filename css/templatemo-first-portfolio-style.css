@@ -13,7 +13,7 @@ https://templatemo.com/tm-578-first-portfolio
 :root {
   --white-color:                  #ffffff;
   --primary-color:                #000000;
-  --secondary-color:              #14B789;
+  --secondary-color:              #535da1;
   --section-bg-color:             #f9f9f9;
   --dark-color:                   #000000;
   --p-color:                      #717275;
@@ -544,6 +544,7 @@ strong {
 .profile-thumb {
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius-medium);
+  background: var(--white-color);
   position: relative;
   overflow: hidden;
 }
@@ -729,9 +730,14 @@ strong {
   margin-bottom: 24px; /* Adjust this for vertical spacing */
   padding: 40px 40px 240px 40px; /* This padding creates the space you see in the 'Projects' image */
   transition: all ease 0.5s;
-  /* Add new properties to set the size */
-  width: 536px;
-  height: 404.67px;
+
+}
+
+.project-image-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .projects-thumb:hover {
@@ -774,14 +780,14 @@ strong {
   CONTACT              
 -----------------------------------------*/
 .contact {
-  background: var(--section-bg-color);
+  background: #eef5ff;
 }
 
 .contact-info {
   background: var(--white-color);
   border-top-right-radius: var(--border-radius-small);
   border-bottom-right-radius: var(--border-radius-small);
-  padding: 60px 30px 30px 30px;
+  padding: 50px 30px 30px 15px;
   height: 100%;
 }
 
@@ -1213,4 +1219,94 @@ strong {
 
 #section_4 .services-thumb-up {
     margin-bottom: 24px;
+}
+
+
+.custom-card,
+.card-education,
+.card-stats,
+.card-skills {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px 0 rgba(80, 80, 120, 0.08);
+    padding: 2rem 1.5rem;
+    margin-bottom: 0;
+    border: none;
+    transition: box-shadow 0.2s;
+}
+
+.custom-card:hover,
+.card-education:hover,
+.card-stats:hover,
+.card-skills:hover {
+    box-shadow: 0 8px 32px 0 rgba(80, 80, 120, 0.16);
+}
+
+.card-education .card-header,
+.card-skills .card-header,
+.card-stats .card-header {
+    background: transparent;
+    border-bottom: none;
+    padding-bottom: 0.5rem;
+    text-align: left;
+}
+
+.card-education .profile-row,
+.card-skills .profile-row {
+    margin-bottom: 0.5rem;
+}
+
+.card-education .card-header h4,
+.card-skills .card-header h4 {
+    text-align: left !important;
+    margin-left: 0 !important;
+}
+
+.card-stats {
+    /* Remove gradient, unify with other cards */
+    background: #fff;
+    color: #333;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px 0 rgba(80, 80, 120, 0.08);
+    padding: 2rem 1.5rem;
+}
+
+.card-stats .featured-numbers {
+    font-size: 2.2rem;
+    color: #535da1;
+    font-weight: bold;
+}
+
+.card-stats .featured-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0;
+}
+
+.card-skills .profile-small-title {
+    color: #535da1;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    display: block;
+    text-align: left;
+    margin-left: 0;
+}
+
+.card-header .col-12 > div:last-child {
+    text-align: left;
+    display: block;
+    margin-left: 0;
+}
+.stats-numbers {
+    margin-top: 7rem;
+}
+
+
+@media (max-width: 991px) {
+    .custom-card,
+    .card-education,
+    .card-stats,
+    .card-skills {
+        margin-bottom: 2rem;
+    }
 }
