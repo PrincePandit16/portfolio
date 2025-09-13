@@ -14,7 +14,7 @@ https://templatemo.com/tm-578-first-portfolio
   --white-color:                  #ffffff;
   --primary-color:                #000000;
   --secondary-color:              #14B789;
-  --section-bg-color:             #f9f9f9;
+  --section-bg-color:             #f3f4f6;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #e9eaeb;
@@ -46,6 +46,14 @@ body {
     font-family: var(--body-font-family); 
 }
 
+.about,
+.featured,
+.services,
+.projects,
+.contact,
+.site-footer {
+    background: var(--section-bg-color) !important;
+}
 
 /*---------------------------------------
   TYPOGRAPHY               
@@ -631,8 +639,8 @@ strong {
 .services,
 .featured {
   background: var(--section-bg-color);
-  border-top: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: none;
+  border-top: none;
 }
 
 .services-thumb {
@@ -781,7 +789,7 @@ strong {
   background: var(--white-color);
   border-top-right-radius: var(--border-radius-small);
   border-bottom-right-radius: var(--border-radius-small);
-  padding: 60px 30px 30px 30px;
+  padding: 50px 30px 30px 20px;
   height: 100%;
 }
 
@@ -1213,4 +1221,122 @@ strong {
 
 #section_4 .services-thumb-up {
     margin-bottom: 24px;
+}
+
+/* Card Styles for Education, Stats, Skills */
+.custom-card,
+.card-education,
+.card-stats,
+.card-skills {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px 0 rgba(80, 80, 120, 0.08);
+    padding: 2rem 1.5rem;
+    margin-bottom: 0;
+    border: none;
+    transition: box-shadow 0.2s;
+}
+
+.custom-card:hover,
+.card-education:hover,
+.card-stats:hover,
+.card-skills:hover {
+    box-shadow: 0 8px 32px 0 rgba(80, 80, 120, 0.16);
+}
+
+.card-education .card-header,
+.card-skills .card-header,
+.card-stats .card-header {
+    background: transparent;
+    border-bottom: none;
+    padding-bottom: 0.5rem;
+    text-align: left;
+}
+
+.card-education .profile-row,
+.card-skills .profile-row {
+    margin-bottom: 0.5rem;
+}
+
+.card-education .card-header h4,
+.card-skills .card-header h4 {
+    text-align: left !important;
+    margin-left: 0 !important;
+}
+
+.card-stats {
+    background: #fff;
+    color: #333;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px 0 rgba(80, 80, 120, 0.08);
+    padding: 2rem 1.5rem;
+}
+
+.card-stats .featured-numbers {
+    font-size: 2.2rem;
+    color: #14B789;
+    font-weight: bold;
+}
+
+.card-stats .featured-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0;
+}
+
+.card-skills .profile-small-title {
+    color: #14B789;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    display: block;
+    text-align: left;
+    margin-left: 0;
+}
+
+.profile-small-title {
+    color: #14B789 !important;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    display: block;
+    text-align: left;
+    margin-left: 0;
+    padding: 0;
+    min-width: 140px;
+}
+
+.card-header .col-12 > div:last-child {
+    text-align: left;
+    display: block;
+    margin-left: 0;
+}
+
+.stats-numbers {
+    margin-top: 7rem;
+}
+
+
+.card-stats .stats-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.card-stats .stats-numbers > .col-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 991px) {
+    .custom-card,
+    .card-education,
+    .card-stats,
+    .card-skills {
+        margin-bottom: 2rem;
+    }
 }
