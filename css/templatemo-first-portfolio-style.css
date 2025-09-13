@@ -13,13 +13,8 @@ https://templatemo.com/tm-578-first-portfolio
 :root {
   --white-color:                  #ffffff;
   --primary-color:                #000000;
-<<<<<<< HEAD
   --secondary-color:              #14B789;
   --section-bg-color:             #f3f4f6;
-=======
-  --secondary-color:              #535da1;
-  --section-bg-color:             #f9f9f9;
->>>>>>> 930a3b249aafd130835c6fc4373b1ce2bd76a731
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #e9eaeb;
@@ -800,11 +795,11 @@ strong {
   background: var(--white-color);
   border-top-right-radius: var(--border-radius-small);
   border-bottom-right-radius: var(--border-radius-small);
-<<<<<<< HEAD
+
   padding: 50px 30px 30px 20px;
-=======
+
   padding: 50px 30px 30px 15px;
->>>>>>> 930a3b249aafd130835c6fc4373b1ce2bd76a731
+
   height: 100%;
 }
 
@@ -1238,11 +1233,6 @@ strong {
     margin-bottom: 24px;
 }
 
-<<<<<<< HEAD
-/* Card Styles for Education, Stats, Skills */
-=======
-
->>>>>>> 930a3b249aafd130835c6fc4373b1ce2bd76a731
 .custom-card,
 .card-education,
 .card-stats,
@@ -1284,10 +1274,6 @@ strong {
 }
 
 .card-stats {
-<<<<<<< HEAD
-=======
-    /* Remove gradient, unify with other cards */
->>>>>>> 930a3b249aafd130835c6fc4373b1ce2bd76a731
     background: #fff;
     color: #333;
     border-radius: 18px;
@@ -1297,11 +1283,8 @@ strong {
 
 .card-stats .featured-numbers {
     font-size: 2.2rem;
-<<<<<<< HEAD
     color: #14B789;
-=======
-    color: #535da1;
->>>>>>> 930a3b249aafd130835c6fc4373b1ce2bd76a731
+  
     font-weight: bold;
 }
 
@@ -1312,11 +1295,7 @@ strong {
 }
 
 .card-skills .profile-small-title {
-<<<<<<< HEAD
-    color: #14B789;
-=======
-    color: #535da1;
->>>>>>> 930a3b249aafd130835c6fc4373b1ce2bd76a731
+
     font-weight: 600;
     margin-bottom: 0.25rem;
     display: block;
@@ -1324,7 +1303,7 @@ strong {
     margin-left: 0;
 }
 
-<<<<<<< HEAD
+
 .profile-small-title {
     color: #14B789 !important;
     font-weight: 600;
@@ -1343,16 +1322,13 @@ strong {
     display: block;
     margin-left: 0;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 930a3b249aafd130835c6fc4373b1ce2bd76a731
 .stats-numbers {
     margin-top: 7rem;
 }
 
 
-<<<<<<< HEAD
+
 .card-stats .stats-numbers {
     display: flex;
     flex-wrap: wrap;
@@ -1379,8 +1355,4 @@ strong {
     .card-skills {
         margin-bottom: 2rem;
     }
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 930a3b249aafd130835c6fc4373b1ce2bd76a731
+
