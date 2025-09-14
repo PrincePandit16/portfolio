@@ -1284,7 +1284,6 @@ strong {
 .card-stats .featured-numbers {
     font-size: 2.2rem;
     color: #14B789;
-  
     font-weight: bold;
 }
 
@@ -1315,8 +1314,6 @@ strong {
     min-width: 140px;
 }
 
-=======
->>>>>>> 930a3b249aafd130835c6fc4373b1ce2bd76a731
 .card-header .col-12 > div:last-child {
     text-align: left;
     display: block;
@@ -1346,13 +1343,11 @@ strong {
 }
 
 
-=======
->>>>>>> 930a3b249aafd130835c6fc4373b1ce2bd76a731
+
 @media (max-width: 991px) {
     .custom-card,
     .card-education,
     .card-stats,
     .card-skills {
         margin-bottom: 2rem;
-    }
-
+}
