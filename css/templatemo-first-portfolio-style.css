@@ -1331,7 +1331,7 @@ strong {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 1rem;
     text-align: center;
 }
 
@@ -1341,6 +1341,7 @@ strong {
     align-items: center;
     justify-content: center;
 }
+
 
 
 
@@ -1354,4 +1355,4 @@ strong {
 
 
 
-.cert-green { color: #28a745 !important; }
+.cert-green { color: #14B789 !important; }

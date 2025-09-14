@@ -166,3 +166,7 @@
 .card-certifications .card-header {
     border-bottom: none !important;
 }
+
+.card-certifications .profile-small-title a {
+    color: #14B789 !important;
+}
